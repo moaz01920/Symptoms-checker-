@@ -1,11 +1,10 @@
 // Symptom Checker Logic
 function checkSymptoms() {
   const symptoms = document.getElementById('symptoms').value;
-  const severity = document.getElementById('severity').value;
-
+  
   if (symptoms) {
     document.getElementById('result').innerText =
-      `Based on your input, you may need to consult a doctor for ${severity} symptoms like "${symptoms}".`;
+      `Our algorithm will analyzes these symptoms and give report in your email.`;
   } else {
     document.getElementById('result').innerText = 'Please enter your symptoms.';
   }
