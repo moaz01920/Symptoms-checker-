@@ -4,7 +4,7 @@ function checkSymptoms() {
   
   if (symptoms) {
     document.getElementById('result').innerText =
-      `Our algorithm will analyzes these symptoms and give report in your email.`;
+      `Our algorithm will analyzes these symptoms and give you report in your email.`;
   } else {
     document.getElementById('result').innerText = 'Please enter your symptoms.';
   }
