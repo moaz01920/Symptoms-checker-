@@ -1,3 +1,5 @@
+document.getElementById('u7').innerText='<div class="container"><h1>HealthEase</h1><nav><a href="index.html">Home</a><a href="symptom-checker.html" class="active">Symptom Checker</a><a href="doctor-chat.html">Doctor Chat</a><a href="health-stats.html">Health Statistics</a></nav></div>';
+
 // Symptom Checker Logic
 function checkSymptoms() {
   const symptoms = document.getElementById('symptoms').value;
