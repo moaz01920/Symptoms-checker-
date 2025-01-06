@@ -19,7 +19,7 @@ function sendMessage() {
 
   if (input) {
     output.innerHTML += `<p><strong>You:</strong> ${input}</p>`;
-    output.innerHTML += `<p><strong>Doctor:</strong> Please provide more details about your symptoms.</p>`;
+    output.innerHTML += `<p><strong>Doctor:</strong> We will reply to you as soon as possible in email.</p>`;
     document.getElementById('chat-input').value = '';
   }
 }
